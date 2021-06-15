@@ -1,26 +1,4 @@
- /*
- * Original sourse: https://playground.arduino.cc/Code/Keypad
- * This is the Arduino code for 4x4 keypad.
- * watch the video for details and demo http://youtu.be/qIDzzG2LUtg
- *  * 
- * Written by Ahmad Nejrabi for Robojax Video channel www.Robojax.com
- * Date: Dec 18, 2017, in Ajax, Ontario, Canada
- * Permission granted to share this code given that this
- * note is kept with the code.
- * Disclaimer: this code is "AS IS" and for educational purpose only.
- * this code has been downloaded from http://robojax.com/learn/arduino/
- * 
- */
-/* @file HelloKeypad.pde
-|| @version 1.0
-|| @author Alexander Brevig
-|| @contact alexanderbrevig@gmail.com
-||
-|| @description
-|| | Demonstrates the simplest use of the matrix Keypad library.
-|| #
-*/
-#include <Keypad.h>
+ #include <Keypad.h>
 
 const byte ROWS = 4; //four rows
 const byte COLS = 4; //three columns
